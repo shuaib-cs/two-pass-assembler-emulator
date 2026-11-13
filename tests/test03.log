@@ -1,0 +1,8 @@
+Pass 1 completed: 0 error(s), program size 2 word(s)
+Symbol table:
+  val                  75 (SET)
+  val2                 66 (SET)
+
+Pass 2:
+
+Assembly succeeded: test03.o and test03.lst written.

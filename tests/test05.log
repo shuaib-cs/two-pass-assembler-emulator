@@ -1,0 +1,12 @@
+Pass 1 completed: 0 error(s), program size 19 word(s)
+Symbol table:
+  count                10 (SET)
+  sum                  0
+  start                1
+  loop                 5
+  done                 15
+
+Pass 2:
+Warning: label 'start' is never used
+
+Assembly succeeded: test05.o and test05.lst written.

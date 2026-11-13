@@ -1,0 +1,20 @@
+Pass 1 completed: 0 error(s), program size 10 word(s)
+Symbol table:
+  double               3
+
+Pass 2:
+
+Assembly succeeded: test14.o and test14.lst written.
+Loaded 10 word(s) from test14.o
+Memory dump before execution (10 word(s)):
+00000000 00001500 0000010D 00000012 FFFFFF0A
+00000004 00000003 00000200 00000013 00000002
+00000008 0000010A 0000000E
+HALT reached after 10 instruction(s)
+Final registers: A=42 (0x0000002A)  B=42 (0x0000002A)  PC=3  SP=65536
+Memory dump after execution (10 word(s)):
+00000000 00001500 0000010D 00000012 FFFFFF0A
+00000004 00000003 00000200 00000013 00000002
+00000008 0000010A 0000000E
+Non-zero words outside the loaded program:
+0000FFFF 00000002  (2)

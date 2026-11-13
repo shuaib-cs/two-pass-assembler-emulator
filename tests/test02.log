@@ -1,0 +1,16 @@
+Line 4: duplicate label 'label'
+Line 7: missing operand for 'ldc'
+Line 8: unexpected operand for 'add'
+Line 9: extra text after operand
+Line 10: invalid label name '0def'
+Line 11: unknown mnemonic 'fibble'
+Line 12: unknown mnemonic '0def'
+Pass 1 completed: 7 error(s), program size 2 word(s)
+Symbol table:
+  label                0
+
+Pass 2:
+Line 5: no such label 'nonesuch'
+Line 6: '08ge' is not a valid number or label
+
+Assembly FAILED: 9 error(s), no output written.

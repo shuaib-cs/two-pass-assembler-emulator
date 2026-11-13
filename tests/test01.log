@@ -1,0 +1,11 @@
+Pass 1 completed: 0 error(s), program size 9 word(s)
+Symbol table:
+  label                0
+  loop                 3
+  next                 5
+  var1                 7
+
+Pass 2:
+Warning: label 'label' is never used
+
+Assembly succeeded: test01.o and test01.lst written.

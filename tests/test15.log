@@ -1,0 +1,16 @@
+Pass 1 completed: 0 error(s), program size 6 word(s)
+Symbol table:
+
+Pass 2:
+
+Assembly succeeded: test15.o and test15.lst written.
+Loaded 6 word(s) from test15.o
+Memory dump before execution (6 word(s)):
+00000000 00000600 00000700 00000013 00000200
+00000004 00000014 00000012
+HALT reached after 6 instruction(s)
+Final registers: A=21 (0x00000015)  B=42 (0x0000002A)  PC=6  SP=65536
+Memory dump after execution (6 word(s)):
+00000000 00000600 00000700 00000013 00000200
+00000004 00000014 00000012
+No non-zero words outside the loaded program.

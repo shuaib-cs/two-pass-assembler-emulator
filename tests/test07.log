@@ -1,0 +1,18 @@
+Line 1: invalid label name '1badlabel'
+Line 5: missing operand for 'ldc'
+Line 7: unexpected operand for 'add'
+Line 9: unknown mnemonic 'foo'
+Line 13: unknown mnemonic '//'
+Line 18: duplicate label 'dup'
+Line 23: SET needs a label on the same line
+Line 25: invalid SET value 'abc'
+Pass 1 completed: 8 error(s), program size 6 word(s)
+Symbol table:
+  start                1
+  dup                  2
+
+Pass 2:
+Line 11: no such label 'missing_label'
+Line 21: no such label 'hello'
+
+Assembly FAILED: 10 error(s), no output written.

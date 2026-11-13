@@ -1,0 +1,19 @@
+Pass 1 completed: 0 error(s), program size 11 word(s)
+Symbol table:
+  x                    10
+
+Pass 2:
+
+Assembly succeeded: test09.o and test09.lst written.
+Loaded 11 word(s) from test09.o
+Memory dump before execution (11 word(s)):
+00000000 00000300 00000A00 00000004 00000013
+00000004 00000201 00000A00 00000004 00000013
+00000008 00000101 00000012 00000005
+HALT reached after 10 instruction(s)
+Final registers: A=86 (0x00000056)  B=17 (0x00000011)  PC=10  SP=65536
+Memory dump after execution (11 word(s)):
+00000000 00000300 00000A00 00000004 00000013
+00000004 00000201 00000A00 00000004 00000013
+00000008 00000101 00000012 00000005
+No non-zero words outside the loaded program.
