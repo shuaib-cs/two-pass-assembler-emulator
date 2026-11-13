@@ -142,7 +142,7 @@ All errors in the file are reported in one run. If any error occurs, no output f
 
 ## Example Programs and Tests
 
-Every test is assembled with `./asm`, and the runnable ones are executed with `./emu -before -after`. The outputs are saved as `.log` files.
+Every test is assembled with `./asm`, and the runnable ones are executed with `./emu -before -after`.The saved outputs are in tests/
 
 | Test | What it checks | Result |
 |------|----------------|--------|
