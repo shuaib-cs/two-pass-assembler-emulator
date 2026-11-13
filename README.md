@@ -107,7 +107,6 @@ Assembly FAILED: 9 error(s), no output written.
 ## Usage
 ./asm file.asm                    # writes file.o (object) and file.lst (listing)
 ./emu [-trace] [-before] [-after] file.o
-sh run_tests.sh                   # assembles and runs every test, producing .log files
 
 
 | Emulator option | What it does |
